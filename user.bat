@@ -1,2 +1,2 @@
 @echo off
-explorer "C:\Users\physi"
+explorer "%USERPROFILE%"

@@ -1,2 +1,2 @@
 @echo off
-code "C:\Users\physi\OneDrive\alias"
+code "%USERPROFILE%\OneDrive\alias"
