@@ -1,0 +1,18 @@
+## よく使う clasp コマンドまとめ
+| コマンド                                   | 説明                                               |
+|--------------------------------------------|----------------------------------------------------|
+| `clasp login`                              | Googleアカウントでログイン                         |
+| `clasp logout`                             | ログアウト                                          |
+| `clasp create --title "タイトル"`           | 新しいGASプロジェクトを作成                        |
+| `clasp clone {スクリプトID}`                | 既存プロジェクトをクローン                          |
+| `clasp push`                               | ローカルの変更をGASにアップロード                   |
+| `clasp pull`                               | GAS側の最新コードを取得                             |
+| `clasp open`                               | GASのWeb UIをブラウザで開く                         |
+| `clasp deployments`                        | デプロイ済み一覧を確認                              |
+| `clasp deploy --description "説明"`         | 新バージョンを作成してデプロイ                      |
+| `clasp version`                            | バージョンだけ作成（デプロイなし）                  |
+| `clasp undeploy {デプロイID}`               | デプロイを解除                                      |
+| `clasp list`                               | 所有しているプロジェクト一覧を表示                   |
+| `clasp status`                             | ローカルとGASの差分を確認                           |
+| `clasp logs`                               | 実行ログを表示                                      |
+| `clasp run {関数名}`                        | 指定した関数を実行                                  |
