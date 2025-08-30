@@ -1,6 +1,6 @@
 @echo off
 
 echo.
-type "%~dp0clasls.txt"
+type "%~dp0claspls.txt"
 echo.
 echo.
